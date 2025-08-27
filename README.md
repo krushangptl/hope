@@ -71,7 +71,7 @@ _NON-SKIPPABLE: Foundational for systems engineering._
     - Learn: Use `apt` (Ubuntu) or `yum/dnf` (Red Hat); manage repositories; update systems.
   - [ ] **C Basics** (+75 XP)
     - Learn: Variables, data types, operators, `if/else`, `switch`, loops, functions, arrays, strings-
-     **Level Up (500 XP):** +1 ❤️ (20 HP), +1 🔮 (10 MP), update to `Level: Copper Miner (Lvl 1)`, `Health: ❤️❤️❤️❤️ 80/500`, `Mana: 🔮🔮🔮 30/100`, add 🟩 per 100 XP.
+      **Level Up (500 XP):** +1 ❤️ (20 HP), +1 🔮 (10 MP), update to `Level: Copper Miner (Lvl 1)`, `Health: ❤️❤️❤️❤️ 80/500`, `Mana: 🔮🔮🔮 30/100`, add 🟩 per 100 XP.
 
 ### 🟨 Level 2: Tin Forger (Weeks 3-4)
 
