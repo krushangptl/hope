@@ -5,17 +5,17 @@
 ## Player: Krushang
 
 ```
-───────────────── STATUS ───────────────────
- 🎯 Level: Surface Dweller (Lvl 1)
- ⭐ XP: 0/1000 ⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️
- ❤️ Health: ❤️❤️❤️❤️❤️ 100/500
- 🔮 Mana: 🔮🔮🔮 30/100
+───────────────── STATUS ────────────────────
+ 🎯 Level: Novice Coder (Lvl 0)
+ ⭐ XP: 0/500  ⬜️⬜️⬜️⬜️⬜️
+ ❤️ Health: ❤️❤️❤️ 60/500
+ 🔮 Mana: 🔮🔮 20/100
  🛡️ Defense: 🛡️ 5/50
- ⚔️ Attack: ⚔️⚔️ 15/100
+ ⚔️ Attack: ⚔️ 7/100
  🏆 Quest: Forge The Zenith (Job Offer)
-    Progress: 0% ⬜️⬜️⬜️⬜️⬜️⬜️
+    Progress: 0%  ⬜️⬜️⬜️⬜️⬜️⬜️
  📅 Week: 1/16 (Speedrun Mode: ON)
-────────────────────────────────────────────
+─────────────────────────────────────────────
 ```
 
 ### Stat Rules
@@ -24,10 +24,10 @@
 - **Mana (🔮):** 1 🔮 = 10 MP (max 100 MP, 10 🔮)
 - **Defense (🛡️):** 1 🛡️ = 5 DEF (max 50 DEF, 10 🛡️)
 - **Attack (⚔️):** 1 ⚔️ = ~7-8 ATK (max 100 ATK, ~13 ⚔️)
-- **XP (⭐):** Add XP to `XP: X/1000`. At 1000 XP, level up, reset XP to overflow (e.g., 1200 → 200), add bonuses, add 🟩 per 100 XP (10 squares max).
+- **XP (⭐):** Add XP to `XP: X/Y`. Level 0 requires 500 XP to reach Level 1; subsequent levels need 1000 XP. On level-up, reset XP to overflow (e.g., 600 → 100), add bonuses, add 🟩 per 100 XP (5 squares for Level 0, 10 for others).
 - **Progress (%):** Each of 6 Zenith weapons = ~16.67% (6 🟩 total).
 
-**Update Guide:** Copy stat lines (e.g., `Health: ❤️❤️❤️❤️❤️ 100/500`), update XP/stats, add 🟩 for every 100 XP or completed weapon, and paste back into the dashboard.
+**Update Guide:** Copy stat lines (e.g., `Health: ❤️❤️❤️ 60/500`), update XP/stats, add 🟩 for every 100 XP or completed weapon, and paste back into the dashboard.
 
 ### 🎒 Inventory
 
@@ -57,61 +57,51 @@ Three realms guide your 16-week journey. **NON-SKIPPABLE** tasks are critical—
 
 _Build core programming and DSA skills._
 
-### 🟫 Level 2: Copper Miner (Weeks 1-2)
+### 🟫 Level 1: Copper Miner (Weeks 1-2)
 
 **Challenge:** Linux & C Basics  
 _NON-SKIPPABLE: Foundational for systems engineering._
 
 - **Checklist:**
-  - [ ] Linux Commands
+  - [ ] **Linux Commands** (+50 XP)
     - Learn: `ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv`, `echo`, `cat`, `grep`, `find`, `sudo`, redirection (`>`, `>>`, `<`, `|`), `export`, `env`.
-    - XP: +50
-  - [ ] File System
+  - [ ] **File System** (+50 XP)
     - Learn: Navigate `/home`, `/etc`, `/var`, `/usr`; permissions (`chmod`, `chown`, `chgrp`); file types; mount/unmount.
-    - XP: +50
-  - [ ] Package Management
+  - [ ] **Package Management** (+50 XP)
     - Learn: Use `apt` (Ubuntu) or `yum/dnf` (Red Hat); manage repositories; update systems.
-    - XP: +50
-  - [ ] C Basics
-    - Learn: Variables, data types, operators, `if/else`, `switch`, loops, functions, arrays, strings.
-    - XP: +75
-- **Level Up (1000 XP):** +1 ❤️ (20 HP), update to `Level: Copper Miner (Lvl 2)`, add 🟩 per 100 XP.
+  - [ ] **C Basics** (+75 XP)
+    - Learn: Variables, data types, operators, `if/else`, `switch`, loops, functions, arrays, strings-
+     **Level Up (500 XP):** +1 ❤️ (20 HP), +1 🔮 (10 MP), update to `Level: Copper Miner (Lvl 1)`, `Health: ❤️❤️❤️❤️ 80/500`, `Mana: 🔮🔮🔮 30/100`, add 🟩 per 100 XP.
 
-### 🟨 Level 3: Tin Forger (Weeks 3-4)
+### 🟨 Level 2: Tin Forger (Weeks 3-4)
 
 **Challenge:** C Pointers & DSA Intro  
 _NON-SKIPPABLE: C is key for systems; DSA starts here._
 
 - **Checklist:**
-  - [ ] Pointers
+  - [ ] **Pointers** (+75 XP)
     - Learn: Pointer arithmetic, dereferencing, function/array pointers, `const`, void pointers.
-    - XP: +75
-  - [ ] Memory Management
+  - [ ] **Memory Management** (+75 XP)
     - Learn: `malloc/free`, dynamic allocation, leak detection (`valgrind`), structures/unions, bit manipulation.
-    - XP: +75
-  - [ ] DSA Intro
-    - Learn: Arrays, linked lists, stacks, queues; sorting (`bubble`, `selection`).
-    - XP: +100
+  - [ ] **DSA Intro** (+100 XP)
+    - Learn: Arrays, linked lists, stacks, queues; sorting (`bubble`, `selection`).(beginner-friendly)
 - **Artifact:** C Array Sorter (Copper Sword, +1 ⚔️ = ~7 ATK)
-- **Level Up (1000 XP):** +1 ❤️ (20 HP), +1 🔮 (10 MP), update to `Level: Tin Forger (Lvl 3)`, `Attack: ⚔️⚔️⚔️ 22/100`, add 🟩 per 100 XP.
+- **Level Up (1000 XP):** +1 ❤️ (20 HP), +1 🔮 (10 MP), update to `Level: Tin Forger (Lvl 2)`, `Attack: ⚔️⚔️⚔️ 22/100`, add 🟩 per 100 XP.
 
-### ⚪ Level 4: Iron Warrior (Week 5)
+### ⚪ Level 3: Iron Warrior (Week 5)
 
 **Challenge:** DSA Core  
 _NON-SKIPPABLE: DSA is critical for interviews._
 
 - **Checklist:**
-  - [ ] Arrays & Strings
+  - [ ] **Arrays & Strings** (+100 XP)
     - Learn: Two pointers, sliding window, prefix sums; solve reverse array, max sum subarray.
-    - XP: +100
-  - [ ] Linked Lists
+  - [ ] **Linked Lists** (+100 XP)
     - Learn: Singly/doubly linked lists, reverse lists, detect cycles.
-    - XP: +100
-  - [ ] Stacks & Queues
+  - [ ] **Stacks & Queues** (+100 XP)
     - Learn: Stack/queue operations, implement using arrays/lists.
-    - XP: +100
 - **Artifact:** Stack-Based Calculator (Iron Armor, +3 🛡️ = 15 DEF)
-- **Level Up (1000 XP):** +1 ❤️ (20 HP), +2 🔮 (15 MP), update to `Level: Iron Warrior (Lvl 4)`, `Defense: 🛡️🛡️🛡️🛡️ 20/50`, add 🟩 per 100 XP.
+- **Level Up (1000 XP):** +1 ❤️ (20 HP), +2 🔮 (15 MP), update to `Level: Iron Warrior (Lvl 3)`, `Defense: 🛡️🛡️🛡️🛡️ 20/50`, add 🟩 per 100 XP.
 
 ### 🏰 Boss: The OA Golem (End of Week 5)
 
@@ -125,47 +115,39 @@ _NON-SKIPPABLE: DSA is critical for interviews._
 
 _Deepen systems and DSA skills._
 
-### 🟦 Level 5-6: Sapphire Algorithmist (Weeks 6-7)
+### 🟦 Level 4-5: Sapphire Algorithmist (Weeks 6-7)
 
 **Challenge:** DSA Advanced  
 _NON-SKIPPABLE: Advanced DSA for interview mastery._
 
 - **Checklist:**
-  - [ ] Trees
+  - [ ] **Trees** (+100 XP)
     - Learn: Binary trees, BFS/DFS, binary search trees; solve traversal problems.
-    - XP: +100
-  - [ ] Graphs
+  - [ ] **Graphs** (+100 XP)
     - Learn: Shortest paths (Dijkstra), topological sort; solve graph problems.
-    - XP: +100
-  - [ ] Dynamic Programming
+  - [ ] **Dynamic Programming** (+100 XP)
     - Learn: Memoization, tabulation, knapsack, longest common subsequence.
-    - XP: +100
-  - [ ] Practice Blind 75
+  - [ ] **Practice Blind 75** (+250 XP/week)
     - Solve: 10-15 LeetCode problems/week (e.g., two sum, merge intervals).
-    - XP: +250/week
 - **Artifact:** Tree Traversal Script (Sapphire Sword, +5 ⚔️ = ~35 ATK)
-- **Level Up (1000 XP/level):** +2 ❤️ (25 HP), +3 🔮 (25 MP), update to `Level: Sapphire Algorithmist (Lvl 5 or 6)`, `Attack: ⚔️⚔️⚔️⚔️⚔️ 50/100`, add 🟩 per 100 XP.
+- **Level Up (1000 XP/level):** +2 ❤️ (25 HP), +3 🔮 (25 MP), update to `Level: Sapphire Algorithmist (Lvl 4 or 5)`, `Attack: ⚔️⚔️⚔️⚔️⚔️ 50/100`, add 🟩 per 100 XP.
 
-### 🔴 Level 7-8: Ruby Systems Master (Weeks 8-10)
+### 🔴 Level 6-7: Ruby Systems Master (Weeks 8-10)
 
 **Challenge:** OS, DBMS, Networking, Git  
 _NON-SKIPPABLE: Systems and version control are core._
 
 - **Checklist:**
-  - [ ] Operating Systems
+  - [ ] **Operating Systems** (+150 XP Scheduling, +150 XP Memory)
     - Learn: Processes/threads (`fork`, `exec`, `wait`), scheduling (FCFS, SJF), synchronization (mutex, semaphores), virtual memory.
-    - XP: +150 (Scheduling), +150 (Memory)
-  - [ ] DBMS
+  - [ ] **DBMS** (+125 XP SQL, +125 XP Transactions)
     - Learn: SQL (`SELECT`, `INSERT`, `UPDATE`, `JOINs`), normalization (1NF-3NF), transactions (ACID).
-    - XP: +125 (SQL), +125 (Transactions)
-  - [ ] Networking
+  - [ ] **Networking** (+100 XP TCP/IP, +100 XP Sockets)
     - Learn: OSI/TCP-IP, IP addressing, TCP/UDP, sockets (`bind`, `listen`), HTTP/HTTPS.
-    - XP: +100 (TCP/IP), +100 (Sockets)
-  - [ ] Version Control
+  - [ ] **Version Control** (+75 XP)
     - Learn: `git init/clone`, `commit/add`, `branch/merge`, `pull/push`, `.gitignore`.
-    - XP: +75
 - **Artifact:** Mini Database Engine (Ruby Armor, +8 🛡️ = 40 DEF)
-- **Level Up (1000 XP/level):** +2 ❤️ (30 HP), +3 🔮 (30 MP), update to `Level: Ruby Systems Master (Lvl 7 or 8)`, `Defense: 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️ 40/50`, add 🟩 per 100 XP.
+- **Level Up (1000 XP/level):** +2 ❤️ (30 HP), +3 🔮 (30 MP), update to `Level: Ruby Systems Master (Lvl 6 or 7)`, `Defense: 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️ 40/50`, add 🟩 per 100 XP.
 
 ### 🐉 Boss: Technical Interview Wyvern (End of Week 10)
 
@@ -179,42 +161,36 @@ _NON-SKIPPABLE: Systems and version control are core._
 
 _Master elite DevOps and systems skills._
 
-### 🐋 Level 9-11: Cobalt Container Master (Weeks 11-13)
+### 🐋 Level 8-10: Cobalt Container Master (Weeks 11-13)
 
 **Challenge:** Docker & Kubernetes  
 _NON-SKIPPABLE: Containers power DevOps._
 
 - **Checklist:**
-  - [ ] Docker
+  - [ ] **Docker** (+200 XP)
     - Learn: Build images, Dockerfiles, `build/run/commit`, volumes/networks, `docker-compose.yml`.
-    - XP: +200
-  - [ ] Multi-Stage Builds
+  - [ ] **Multi-Stage Builds** (+150 XP)
     - Learn: Optimize images, caching, security scanning.
-    - XP: +150
-  - [ ] Kubernetes
+  - [ ] **Kubernetes** (+250 XP)
     - Learn: Pods, deployments, services, YAML, `kubectl`, namespaces, HPA, ingress.
-    - XP: +250
 - **Artifact:** Container Orchestration Armor (+12 🛡️ = 50 DEF, capped)
-- **Level Up (1000 XP/level):** +2 ❤️ (40 HP), +4 🔮 (40 MP), update to `Level: Cobalt Container Master (Lvl 9-11)`, `Defense: 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️ 50/50`, add 🟩 per 100 XP.
+- **Level Up (1000 XP/level):** +2 ❤️ (40 HP), +4 🔮 (40 MP), update to `Level: Cobalt Container Master (Lvl 8-10)`, `Defense: 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️ 50/50`, add 🟩 per 100 XP.
 
-### ⚙️ Level 12-14: Mythril DevOps Engineer (Weeks 14-16)
+### ⚙️ Level 11-13: Mythril DevOps Engineer (Weeks 14-16)
 
-**Challenge:** CI/CD & Monitoring  
-_NON-SKIPPABLE: Automation is key._
+**Challenge:** CI/CD, Monitoring, Open Source  
+_NON-SKIPPABLE: Automation and contributions are key._
 
 - **Checklist:**
-  - [ ] CI/CD
+  - [ ] **CI/CD** (+200 XP)
     - Learn: GitHub Actions workflows, testing integration, deployment scripts.
-    - XP: +200
-  - [ ] Monitoring
+  - [ ] **Monitoring** (+200 XP)
     - Learn: Prometheus/Grafana, CPU/memory monitoring, ELK intro, alerts.
-    - XP: +200
-  - [ ] Open Source
+  - [ ] **Open Source** (+150 XP)
     - Learn: Contribute to projects, code reviews, documentation.
-    - **Resource:** [First Contributions](https://firstcontributions.github.io/) (beginner guide)
-    - XP: +150
+    - **Resource:** [First Contributions](https://firstcontributions.github.io/)
 - **Artifact:** Automation Forge (Mythril Tools, +7 ⚔️ = ~50 ATK)
-- **Level Up (1000 XP/level):** +3 ❤️ (50 HP), +5 🔮 (50 MP), update to `Level: Mythril DevOps Engineer (Lvl 12-14)`, `Attack: ⚔️⚔️⚔️⚔️⚔️⚔️⚔️ 50/100`, add 🟩 per 100 XP, **UNLOCK ZENITH COMPONENTS**.
+- **Level Up (1000 XP/level):** +3 ❤️ (50 HP), +5 🔮 (50 MP), update to `Level: Mythril DevOps Engineer (Lvl 11-13)`, `Attack: ⚔️⚔️⚔️⚔️⚔️⚔️⚔️ 50/100`, add 🟩 per 100 XP, **UNLOCK ZENITH COMPONENTS**.
 
 ### 👑 Final Boss: Senior Systems Engineer (End of Week 16)
 
@@ -263,5 +239,23 @@ Craft 6 weapons to forge The Zenith. Each adds ~16.67% progress (1 🟩).
 Terra Blade + Meowmere + Star Wrath + Influx Waver +
 The Horseman’s Blade + Flying Dragon = 💎 THE ZENITH
 ```
+
+---
+
+# 📊 XP Tracking
+
+- **Daily XP:** DSA Problem (+50/100/200 for easy/medium/hard), Course Topic (+25-50), Code Commit (+20-40), Blog/Documentation (+100-200), Open Source (+150-500), Mock Interview (+200), Teaching (+100-300).
+- **Weekly Bonuses:** Weekly Goal (+500), Artifact (+300-800), Level Up (+200), Perfect Week (+1000).
+- **Boss Battles:** Mini-Boss (+200-500), Mid-Boss (+800-1200), Final Boss (+2000).
+
+---
+
+# 🎮 Weekly Update Guide
+
+1. Sum XP, update `XP: X/Y`, add 🟩 per 100 XP.
+2. If XP ≥ 500 (Lvl 0) or 1000 (others), reset to overflow, increment level, add stat bonuses.
+3. Update stats (❤️, 🔮, 🛡️, ⚔️) and artifacts.
+4. Check off Zenith weapons, add 🟩 per weapon.
+5. Update dashboard in README.
 
 ---
