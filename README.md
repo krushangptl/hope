@@ -265,9 +265,3 @@ The Horseman’s Blade + Flying Dragon = 💎 THE ZENITH
 ```
 
 ---
-
-# 📊 XP Tracking
-
-- **Daily XP:** DSA Problem (+50/100/200 for easy/medium/hard), Course Topic (+25-50), Code Commit (+20-40), Blog/Documentation (+100-200), Open Source (+150-500), Mock Interview (+200), Teaching (+100-300).
-- **Weekly Bonuses:** Weekly Goal (+500), Artifact (+300-800), Level Up (+200), Perfect Week (+1000).
-- **Boss Battles:** Mini-Boss (+
